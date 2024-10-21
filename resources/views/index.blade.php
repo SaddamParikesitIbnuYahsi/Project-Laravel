@@ -4,69 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FreshFruits</title>
-    <link rel="stylesheet" href="aset/css/styles.css">
+    @vite('resources/css/app.css')
 </head>
-<body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h1>FreshFruits</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<body class="bg-green-500">
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-6">
+        <div class="text-white font-bold text-2xl">FreshFruits</div>
+        <ul class="flex space-x-6 text-white">
+            <li><a href="#" class="hover:text-gray-300">Home</a></li>
+            <li><a href="#" class="hover:text-gray-300">About</a></li>
+            <li><a href="#" class="hover:text-gray-300">Products</a></li>
+            <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+    </nav>
 
-    <section id="home" class="hero-section">
-        <div class="hero-content">
-            <h2>Fresh and Organic Fruits</h2>
-            <p>Delivering fresh fruits straight from the farm to your door!</p>
-            <a href="#products" class="cta-btn">Shop Now</a>
-        </div>
+    <!-- Hero Section -->
+    <section class="flex flex-col items-center justify-center h-screen text-center text-white">
+        <h1 class="text-5xl font-bold mb-4">Fresh and Organic Fruits</h1>
+        <p class="text-xl mb-6">Delivering fresh fruits straight from the farm to your door!</p>
+        <a href="#" class="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-md">Shop Now</a>
     </section>
 
-    <section id="about" class="about-section">
-        <h2>About Us</h2>
-        <p>Berisi Buah buahan segar yang baru saja diambil dari Kebun.</p>
-    </section>
-
-    <section id="products" class="products-section">
-        <h2>Our Products</h2>
-        <div class="product-card">
-            <img src="aset/img/apple.jpg" alt="Apples">
-            <h3>Apples</h3>
-            <p>Crisp, juicy, and perfect for any occasion.</p>
-        </div>
-        <div class="product-card">
-            <img src="/img/assets/Manfaat buah pisang untuk kesehatan _ Rahasia hidup sehat.jpeg" alt="Bananas">
-            <h3>Bananas</h3>
-            <p>Rich in potassium and great for snacking.</p>
-        </div>
-        <div class="product-card">
-            <img src="/img/assets/Sebuah jeruk mengandung lebih dari 60 senyawa….jpeg" alt="Oranges">
-            <h3>Oranges</h3>
-            <p>Sweet, tangy, and full of vitamin C.</p>
+    <!-- About Section -->
+    <section class="bg-white py-12">
+        <div class="text-center">
+            <h2 class="text-3xl font-semibold mb-4">About Us</h2>
+            <p class="text-gray-700">Berisi Buah buahan segar yang baru saja diambil dari Kebun.</p>
         </div>
     </section>
-
-    <section id="contact" class="contact-section">
-        <h2>Contact Us</h2>
-        <p>Have any questions? We'd love to hear from you!</p>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 FreshFruits. All rights reserved.</p>
-    </footer>
-    <script src="aset/styles.js"></script>
 </body>
 </html>
