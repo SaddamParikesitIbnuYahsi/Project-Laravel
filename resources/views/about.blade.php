@@ -7,7 +7,12 @@
 </head>
 <body>
   <h1 class="text-3xl font-bold text-amber-100 bg-black px-0 flex justify-end items-start">
-    Hello world!
   </h1>
+  <p>
+  nama saya{{$nama}} saya ber umur{{$umur}}
+  </p>
+  <p>
+    hobi saya adalah{{$hobi}}
+  </p>
 </body>
 </html>

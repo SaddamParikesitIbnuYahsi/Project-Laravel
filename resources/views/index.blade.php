@@ -15,6 +15,8 @@
             <li><a href="#" class="hover:text-gray-300">About</a></li>
             <li><a href="#" class="hover:text-gray-300">Products</a></li>
             <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+            <li><a href="{{route('about')}}" class="text-3xl font-bold text-amber-100 bg-black px-0 flex justify-end items-start">about</a></li>
+            <li><a href="{{route('login')}}">login</a></li>
         </ul>
     </nav>
 
